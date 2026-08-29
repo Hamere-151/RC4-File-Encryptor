@@ -57,7 +57,7 @@ int main()
 
 
     // Open encrypted file
-    ifstream input("encrypted_file.bin", ios::binary);
+   ifstream input("file.txt", ios::binary);
 
 
     if (!input)
@@ -90,7 +90,7 @@ int main()
 
 
     // Save decrypted file
-    ofstream output("decrypted_file.txt", ios::binary);
+   ofstream output("file.txt", ios::binary);
 
 
     if (!output)
