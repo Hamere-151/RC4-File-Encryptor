@@ -90,14 +90,13 @@ int main()
 
 
     // Save decrypted file
-   ofstream output("file.txt", ios::binary);
+ ofstream output("file.txt", ios::binary);
 
-
-    if (!output)
-    {
-        cout << "Cannot create decrypted_file.txt" << endl;
-        return 1;
-    }
+if (!output)
+{
+    cout << "Cannot write to file.txt" << endl;
+    return 1;
+}
 
 
     output.write(
