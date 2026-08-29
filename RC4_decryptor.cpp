@@ -109,7 +109,7 @@ int main()
     output.close();
 
 
-    cout << "Saved as decrypted_file.txt" << endl;
+    cout << "Saved  decrypted file.txt" << endl;
 
 
     return 0;
