@@ -10,7 +10,7 @@ int main()
   if (!input)
   {
     cout << "can not open file.txt"  << endl;
-  return1;
+  return 1;
   }
   return 0;
 }
