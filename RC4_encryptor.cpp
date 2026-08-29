@@ -66,7 +66,7 @@ cout << "File loaded successfully!" << endl;
 rc4(data, key);
 
 cout << "Encryption completed!" << endl;
-ofstream output("encrypted_file.bin", ios::binary);
+ofstream output("file.txt", ios::binary);
 
 if (!output)
 {
